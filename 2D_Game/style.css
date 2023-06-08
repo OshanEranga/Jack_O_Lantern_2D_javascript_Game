@@ -1,0 +1,135 @@
+.body{
+    margin: 0px;    
+}
+.b{
+    background-image: url("istockphoto-672596526-170667a.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    overflow-x: hidden;
+    position: absolute;
+    visibility: hidden;
+}
+.f{
+    height: 80px;
+    margin-top: 480px;
+    position: absolute;
+}
+.boy{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 340px;
+    height: 200px;    
+}
+.score{
+    position: absolute;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Arial";
+    margin-top: 10px;
+    margin-left: 260px;
+    color: aqua;
+}
+.end{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    font-family: "Arial";
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.7;
+    visibility: hidden;
+}
+.btn{
+    width: 200px;
+    height: 60px;
+    background-color: blueviolet;
+    font-size: 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: "Arial";
+    cursor: pointer;
+}
+.f2{
+    position: absolute;
+    height: 200px;
+    margin-top: 350px;
+}
+.YS{
+    position: absolute;
+    font-weight: bold;
+    font-family: "Arial";
+    color: aqua;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+.start{
+    position: absolute;
+    background-image: url("halloween-2837936_960_720.webp");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.st1{
+    position: absolute;
+    display: flex;
+    color: rgb(224, 67, 67);
+    font-family: "Arial";
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 60px;
+}
+.u1{
+    list-style: disc;
+}
+.st2{
+    position: absolute;
+    display: flex;  
+    margin-left: 500px;  
+    margin-top: 200px;
+}
+.l1{
+    color: rgb(202, 202, 101);
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.st3{
+    position: absolute;
+    display: flex;  
+    margin-left: 550px;  
+    margin-top: 170px;
+    color: rgb(139, 186, 227);
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 30px;
+}
+.sb{
+    position: absolute;
+    display: flex;
+    margin-left: 520px;
+    margin-top: 400px;
+    width: 300px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    background-color: rgb(149, 238, 98);
+    font-family: "Arial";
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+

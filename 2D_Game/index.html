@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2D Game</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body onkeyup="key(event);" class="body">
+        <div class="start" id="start">
+            <div class="st1">JACK O LANTERT Game</div> 
+            <div class="st3">Control Keys</div>
+            <div class="st2">
+                <ul class="u1">
+                    <li class="l1">Enter = Start Run</li>
+                    <li class="l1">Space = Jump</li>
+                    <li class="l1">Down Arrow = slide</li>
+                </ul>
+        </div> 
+            <button class="sb" onclick="start();">Start Game</button> 
+        </div>
+        <div id="b" class="b">
+            <p class="score" id="score">0</p>
+            <p class="YS">Your Score =</p>
+            <img src="Run (1).png" class="boy" id="boy"/>
+        </div>
+        <div class="end" id="end">
+            <div>Game over</div>
+            <div>Your Score</div>
+            <div id="endScore">0</div>
+            <button class="btn" onclick="re()">Try Again</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
